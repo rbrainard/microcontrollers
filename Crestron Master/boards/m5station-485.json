@@ -1,0 +1,29 @@
+{
+  "build": {
+    "core": "esp32",
+    "cpu": "esp32",
+    "extra_flags": "-DARDUINO_ARCH_ESP32",
+    "f_cpu": "240000000L",
+    "f_flash": 40000000,
+    "flash_mode": "dio",
+    "flash_size": "16MB",
+    "hwids": [
+      ["0x1A86", "0x7523"],
+      ["0x1A86", "0x55D4"]
+    ],
+    "mcu": "esp32",
+    "variant": "esp32"
+  },
+  "platforms": ["espressif32"],
+  "frameworks": ["arduino"],
+  "upload": {
+    "flash_size": "16MB",
+    "maximum_ram_size": 524288,
+    "maximum_size": 16777216,
+    "protocol": "esptool",
+    "speed": 921600
+  },
+  "vendor": "m5stack",
+  "name": "M5Station-485 (custom)",
+  "url": "https://docs.m5stack.com/en/core/station_485"
+}

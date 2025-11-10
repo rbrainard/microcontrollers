@@ -1,0 +1,4 @@
+requests==2.31.0
+tkinter
+matplotlib==3.7.1
+numpy==1.24.3
